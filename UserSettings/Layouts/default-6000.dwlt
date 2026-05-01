@@ -613,9 +613,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 51404
+    - m_Data: 51684
     m_LastClickedID:
-      m_Data: 51404
+      m_Data: 51684
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 1000000000
@@ -652,7 +652,6 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51404
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -683,7 +682,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: []
     m_LastClickedEntityId:
       m_Data: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1001,7 +1000,6 @@ MonoBehaviour:
       m_Data: 51704
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51404
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1035,7 +1033,6 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 51404
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
