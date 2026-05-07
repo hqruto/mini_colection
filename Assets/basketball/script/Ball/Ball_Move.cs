@@ -29,6 +29,8 @@ public class BallShoot2D : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.instance.isGameEnd) return; // ゲームオーバー時は操作を受け付けない
+
         timer += Time.deltaTime * 5f; // タイマーを進める（速度調整）
 
         // --- ステップ1：パワー選択 ---
@@ -102,5 +104,15 @@ public class BallShoot2D : MonoBehaviour
         rb.angularVelocity = 0f;
 
         rb.AddForce(shootDirection.right * p, ForceMode2D.Impulse);// シュート方向の右ベクトルにパワーを掛けてインパルスで力を加える
+    }
+
+    public void ResetState() // シュート状態をリセットする関数
+    {
+        state = ShootState.PowerSelect; // 状態をパワー選択に戻す
+        timer = 0f; // タイマーをリセット
+        power = 5f; // パワーを初期値に戻す
+        angle = 45f; // 角度を初期値に戻す
+
+        lineRenderer.enabled = true; // 軌道表示を戻す
     }
 }
